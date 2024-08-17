@@ -18,19 +18,6 @@ Visual navigation in unknown environments is a core challenge in the field of em
 
 To address the aforementioned issues, we propose a knowledge-driven lightweight image instance navigation framework, the Dual Graph Navigation (DGN), as illustrated in the following sections.
 
-#### 1. Environmental Perception
-
-DGN uses target recognition and keypoint extraction to guide navigation by building an Internal Knowledge Graph (IKG).
-
-#### 2. Navigation Decision-Making
-
-Prioritizes exploring areas where the target is likely to appear rather than traversing all areas.
-
-#### 3. Path Planning
-
-Generates a route from the current position to the target location, improving decision efficiency.
-
----
 
 ### Results
 
