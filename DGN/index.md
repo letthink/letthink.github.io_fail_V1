@@ -1,38 +1,46 @@
+# Knowledge-Driven Visual Target Navigation: Dual Graph Navigation
+
+## Albert Author1 and Bernard D. Researcher2
+
+### Abstract
+
+Visual target navigation is a critical task within the realm of embodied intelligence. Existing end-to-end and modular approaches often face high computational demands, challenges in online updates, and limited generalization, restricting their deployment on resource-constrained devices. To overcome these challenges, we introduce a knowledge-driven, lightweight image instance navigation framework, Dual Graph Navigation (DGN). 
+
+### Introduction
+
+Visual navigation in unknown environments is a core challenge in the field of embodied intelligence. It requires robots to possess both scene understanding and autonomous navigation capabilities. Complex indoor environments impose strict requirements on a robot’s real-time navigation abilities. 
+
+[**Read More...**](link-to-full-paper)
+
 ---
 
-title: Knowledge-Driven Visual Target Navigation: Dual Graph Navigation 
+### Method
 
-subtitle: ''
-summary: ''
-authors:
-- Sourav Garg
-- Ehtesham Hassan
-- Swagat Kumar
-- Prithwijit Guha
-tags: []
-categories: []
-date: '2015-01-01'
-lastmod: 2021-09-26T00:43:12+10:00
-featured: false
-draft: false
+To address the aforementioned issues, we propose a knowledge-driven lightweight image instance navigation framework, the Dual Graph Navigation (DGN), as illustrated in the following sections.
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
+#### 1. Environmental Perception
+DGN uses target recognition and keypoint extraction to guide navigation by building an Internal Knowledge Graph (IKG).
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-publishDate: '2021-09-25T14:43:12.253640Z'
-publication_types:
-- '1'
-abstract: ''
-publication: '*International Symposium on Visual Computing*'
+#### 2. Navigation Decision-Making
+Prioritizes exploring areas where the target is likely to appear rather than traversing all areas.
+
+#### 3. Path Planning
+Generates a route from the current position to the target location, improving decision efficiency.
+
 ---
+
+### Results
+
+DGN outperforms existing methods in terms of success rate and path efficiency, demonstrating strong generalization and adaptability across different environments.
+
+---
+
+### Conclusion
+
+The DGN framework provides an efficient and adaptable solution for visual target navigation on resource-constrained devices, leveraging dual-topological perception to guide exploration and decision-making.
+
+### References
+
+- [1] Reference 1
+- [2] Reference 2
+- [3] Reference 3
